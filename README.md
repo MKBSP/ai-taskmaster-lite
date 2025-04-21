@@ -2,9 +2,9 @@
 
 > **TL;DR**: Make GitHub Copilot, Claude, or ChatGPT write better code by giving them context. Stop getting garbage code suggestions that don't match your project. This lightweight tool supercharges your AI coding assistant by 90% with zero setup pain.
 
-![Stars](https://img.shields.io/github/stars/yourusername/ai-taskmaster-lite?style=social)
-![License](https://img.shields.io/github/license/yourusername/ai-taskmaster-lite)
-![Last Commit](https://img.shields.io/github/last-commit/yourusername/ai-taskmaster-lite)
+![Stars](https://img.shields.io/github/stars/mkbsp/ai-taskmaster-lite?style=social)
+![License](https://img.shields.io/github/license/mkbsp/ai-taskmaster-lite)
+![Last Commit](https://img.shields.io/github/last-commit/mkbsp/ai-taskmaster-lite)
 
 ## 😩 The Problem
 
