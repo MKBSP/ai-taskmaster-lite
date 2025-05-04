@@ -34,6 +34,24 @@ We've all been there:
 
 ## ⚡️ Quick Install
 
+### NPM Installation (Recommended)
+
+```bash
+# Install globally
+npm install -g ai-taskmaster-lite
+
+# Initialize in your project
+npx taskmaster-setup
+
+# OR install locally in your project
+npm install --save-dev ai-taskmaster-lite
+
+# Then run setup
+npx taskmaster-setup
+```
+
+### Manual Installation
+
 ```bash
 git clone https://github.com/yourusername/ai-taskmaster-lite.git .taskmaster
 cd .taskmaster && chmod +x setup.sh && ./setup.sh
@@ -84,6 +102,26 @@ The AI will:
 - **tasks.md**: Task tracking with checkboxes
 - **schema.md**: Database schema documentation
 - **architecture.md**: System architecture overview
+
+## 💻 Programmatic Usage
+
+You can also use AI Taskmaster Lite programmatically in your Node.js applications:
+
+```javascript
+const taskmaster = require('ai-taskmaster-lite');
+
+// Initialize Taskmaster in a project
+await taskmaster.initializeTaskmaster();
+
+// Read a Taskmaster file
+const prd = await taskmaster.readTaskmasterFile('project-prd.md');
+
+// Write or update a Taskmaster file
+await taskmaster.writeTaskmasterFile('tasks.md', updatedTasks);
+
+// Get all Taskmaster context as an object
+const context = await taskmaster.getTaskmasterContext();
+```
 
 ## 🙏 Help Wanted!
 

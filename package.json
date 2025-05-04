@@ -1,0 +1,40 @@
+{
+  "name": "ai-taskmaster-lite",
+  "version": "1.0.0",
+  "description": "A lightweight tool that supercharges your AI coding assistant by providing project context",
+  "main": "index.js",
+  "scripts": {
+    "setup": "node setup.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkbsp/ai-taskmaster-lite.git"
+  },
+  "keywords": [
+    "ai",
+    "coding",
+    "assistant",
+    "github-copilot",
+    "claude",
+    "chatgpt",
+    "context-management",
+    "documentation"
+  ],
+  "author": "MKBSP",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mkbsp/ai-taskmaster-lite/issues"
+  },
+  "homepage": "https://github.com/mkbsp/ai-taskmaster-lite#readme",
+  "bin": {
+    "taskmaster-setup": "./setup.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "chalk": "^4.1.2"
+  }
+}
